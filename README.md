@@ -1,4 +1,4 @@
-﻿<p align="center">
+<p align="center">
   <img src="docs/logo.svg" width="72" height="72" alt="知源" />
 </p>
 
@@ -13,6 +13,10 @@
   <img alt="fastapi" src="https://img.shields.io/badge/FastAPI-0.115-009688?logo=fastapi&logoColor=white" />
   <img alt="vue" src="https://img.shields.io/badge/Vue-3.5-42B883?logo=vue.js&logoColor=white" />
   <img alt="license" src="https://img.shields.io/badge/License-MIT-blue" />
+</p>
+
+<p align="center">
+  📺 <a href="https://www.bilibili.com/video/BV1hMWm61ECk/"><b>演示视频 · 4 分 49 秒</b></a>（上传文档 → 提问 → 看引用出处 → 防编造测试）
 </p>
 
 ---
@@ -118,6 +122,7 @@ docker compose up -d --build
 > ```
 >
 > 第三方镜像源能看到你拉取的镜像，**只建议用于公开基础镜像**，公司私有镜像请走自己的 registry。
+
 
 ### 模型准备
 
