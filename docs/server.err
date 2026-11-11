@@ -1,0 +1,103 @@
+INFO:     Started server process [7216]
+INFO:     Waiting for application startup.
+2026-11-07 13:42:32,149 INFO [httpx] HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-11-07 13:42:32,154 INFO [app] 模型服务 True | chat=qwen-plus | embed=text-embedding-v3 | dim=1024
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+2026-11-07 13:42:48,656 INFO [app] GET / 200 121ms id=aa0281f9ebe3
+2026-11-07 13:42:48,756 INFO [app] GET /favicon.ico 200 2ms id=68e78c9d16f2
+2026-11-07 13:42:48,852 INFO [app] GET /api/v1/kbs 401 5ms id=75a385ffcc89
+2026-11-07 13:44:48,203 INFO [app] POST /api/v1/auth/login 200 243ms id=bdcfbfc89a4a
+2026-11-07 13:44:48,436 INFO [app] GET /api/v1/kbs 200 9ms id=350b1e668fbf
+2026-11-07 13:45:04,155 INFO [app] GET /api/v1/conversations 200 11ms id=058638e855ba
+2026-11-07 13:45:18,578 INFO [app] GET /api/v1/conversations 200 4ms id=72a3b7d5b98d
+2026-11-07 13:45:43,934 INFO [app] POST /api/v1/chat/stream 200 17ms id=4b60cf67a3ce
+2026-11-07 13:45:44,327 INFO [httpx] HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-11-07 13:45:45,737 INFO [httpx] HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-07 13:45:46,325 INFO [app] GET /api/v1/conversations 200 2ms id=1e68035cc8e0
+2026-11-07 13:46:31,294 INFO [app] GET /api/v1/conversations 200 3ms id=bb307ade1e6c
+2026-11-07 13:46:48,794 INFO [app] POST /api/v1/chat/stream 200 12ms id=7a700a76c9ae
+2026-11-07 13:46:49,185 INFO [httpx] HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-11-07 13:46:49,985 INFO [httpx] HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-07 13:46:50,663 INFO [app] GET /api/v1/conversations 200 4ms id=fe979b2f02c3
+2026-11-07 13:47:14,623 INFO [app] GET /api/v1/kbs 200 5ms id=9957b87b85c1
+2026-11-07 13:47:28,721 INFO [app] POST /api/v1/kbs 201 18ms id=76ab0d5873bb
+2026-11-07 13:47:28,732 INFO [app] GET /api/v1/kbs 200 4ms id=481326673397
+2026-11-07 13:47:35,491 INFO [app] GET /api/v1/kbs 200 5ms id=fd5152ad3ae8
+2026-11-07 13:47:35,708 INFO [app] GET /api/v1/kbs/4/documents 200 7ms id=dc96e5c991ef
+2026-11-07 13:47:35,709 INFO [app] GET /api/v1/kbs 200 8ms id=ed52dceca939
+2026-11-07 13:47:54,782 INFO [app] GET /api/v1/kbs 200 5ms id=da23f16e42d2
+2026-11-07 13:47:54,992 INFO [app] GET /api/v1/admin/system 200 8ms id=af0d9e8e9cc6
+2026-11-07 13:47:54,996 INFO [app] GET /api/v1/admin/users 200 16ms id=cd49d405e5d5
+2026-11-07 13:47:55,001 INFO [app] GET /api/v1/admin/logs 200 19ms id=8a69259210b6
+2026-11-07 13:47:55,009 INFO [app] GET /api/v1/admin/stats 200 30ms id=dc7e8955b470
+2026-11-07 13:48:01,123 INFO [app] GET /api/v1/kbs 200 4ms id=0b963de71e15
+2026-11-07 13:48:01,325 INFO [app] GET /api/v1/conversations 200 2ms id=ace74bcce7f6
+2026-11-07 13:50:53,661 INFO [app] GET / 200 1ms id=69635b3b8467
+2026-11-07 13:50:53,734 INFO [app] GET /api/v1/kbs 200 5ms id=d20e24ff8a8b
+2026-11-07 13:50:58,886 INFO [app] GET /api/v1/kbs 200 4ms id=913e4561552f
+2026-11-07 13:51:19,113 INFO [app] GET /api/v1/kbs 200 4ms id=26ba5a422812
+2026-11-07 13:52:13,212 INFO [app] GET /api/v1/kbs 200 4ms id=399d6c65dc5d
+2026-11-07 13:53:08,819 INFO [app] POST /api/v1/auth/login 200 244ms id=d7441836e903
+2026-11-07 13:53:09,041 INFO [app] GET /api/v1/kbs 200 4ms id=04e9a55fc906
+2026-11-07 13:53:15,131 INFO [app] GET /api/v1/kbs 200 5ms id=1003d401294b
+2026-11-07 13:53:24,743 INFO [app] GET /api/v1/kbs 200 7ms id=e99fcc24b6d5
+2026-11-07 13:53:24,945 INFO [app] GET /api/v1/conversations 200 2ms id=ab2de49ecde7
+2026-11-07 13:53:41,456 INFO [app] GET /api/v1/conversations 200 3ms id=e32311548400
+2026-11-07 13:54:03,215 INFO [app] POST /api/v1/chat/stream 200 12ms id=5d6871a38d6d
+2026-11-07 13:54:03,590 INFO [httpx] HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-11-07 13:54:04,183 INFO [httpx] HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-07 13:54:04,931 INFO [app] GET /api/v1/conversations 200 2ms id=0a5a793570c7
+2026-11-07 13:55:08,719 INFO [app] POST /api/v1/chat/stream 200 9ms id=683e4a11849c
+2026-11-07 13:55:09,167 INFO [httpx] HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-11-07 13:55:09,683 INFO [httpx] HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-07 13:55:10,759 INFO [app] GET /api/v1/conversations 200 3ms id=13e5d7efa526
+2026-11-07 13:55:32,195 INFO [app] GET /api/v1/kbs 200 5ms id=4997b0d0adf3
+2026-11-07 13:55:32,416 INFO [app] GET /api/v1/admin/logs 200 12ms id=b42fc198f881
+2026-11-07 13:55:32,417 INFO [app] GET /api/v1/admin/system 200 12ms id=1a32f4975ef7
+2026-11-07 13:55:32,420 INFO [app] GET /api/v1/admin/users 200 17ms id=36fe799737e8
+2026-11-07 13:55:32,421 INFO [app] GET /api/v1/admin/stats 200 20ms id=6514f76da9b3
+2026-11-07 13:55:43,929 INFO [app] GET /api/v1/kbs 200 6ms id=ce9bc27c768c
+2026-11-07 13:55:45,578 INFO [app] GET /api/v1/kbs 200 5ms id=c12086a22742
+2026-11-07 13:55:45,776 INFO [app] GET /api/v1/conversations 200 2ms id=5093d345d461
+2026-11-07 13:57:25,721 INFO [app] POST /api/v1/auth/login 401 232ms id=14025863db17
+2026-11-07 13:57:56,311 INFO [app] GET / 200 1ms id=300def5a2663
+2026-11-07 13:58:21,657 INFO [app] POST /api/v1/auth/login 200 239ms id=98339a8a6b27
+2026-11-07 13:58:21,895 INFO [app] GET /api/v1/kbs 200 4ms id=471d6e426f3d
+2026-11-07 13:58:30,035 INFO [app] GET /api/v1/conversations 200 3ms id=ea7e49565902
+2026-11-07 13:58:35,215 INFO [app] GET /api/v1/kbs 200 5ms id=a9d3aa2e605c
+2026-11-07 13:59:09,088 INFO [app] POST /api/v1/kbs 201 16ms id=e3610a256585
+2026-11-07 13:59:09,100 INFO [app] GET /api/v1/kbs 200 4ms id=2397c639c18d
+2026-11-07 13:59:11,901 INFO [app] GET /api/v1/kbs 200 5ms id=09f63e2a06da
+2026-11-07 13:59:12,123 INFO [app] GET /api/v1/kbs/5/documents 200 5ms id=ac191700bc7b
+2026-11-07 13:59:12,130 INFO [app] GET /api/v1/kbs 200 13ms id=a4dbcc2118a8
+2026-11-07 13:59:28,119 INFO [app] GET /api/v1/kbs 200 6ms id=7ca194307c51
+2026-11-07 13:59:31,796 INFO [app] GET /api/v1/kbs 200 4ms id=f2c9feec4b5c
+2026-11-07 13:59:32,011 INFO [app] GET /api/v1/conversations 200 3ms id=2f75f94c5bb6
+2026-11-07 13:59:41,459 INFO [app] GET /api/v1/conversations 200 3ms id=9ccd50dfb01a
+2026-11-07 14:00:12,502 INFO [app] POST /api/v1/chat/stream 200 11ms id=404ed75adb21
+2026-11-07 14:00:12,895 INFO [httpx] HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-11-07 14:00:13,563 INFO [httpx] HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-07 14:00:14,499 INFO [app] GET /api/v1/conversations 200 3ms id=b3cb02c67390
+2026-11-07 14:01:04,961 INFO [app] POST /api/v1/chat/stream 200 8ms id=39e430c8c2f6
+2026-11-07 14:01:05,354 INFO [httpx] HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-11-07 14:01:05,861 INFO [httpx] HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-07 14:01:06,007 INFO [app] GET /api/v1/conversations 200 3ms id=9d148d082ce7
+2026-11-07 14:01:21,095 INFO [app] GET /api/v1/conversations 200 3ms id=ca7625e6141c
+2026-11-07 14:01:52,172 INFO [app] POST /api/v1/chat/stream 200 12ms id=3bc9f517d612
+2026-11-07 14:01:52,659 INFO [httpx] HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-11-07 14:01:53,369 INFO [httpx] HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-07 14:01:54,297 INFO [app] GET /api/v1/conversations 200 2ms id=301a0ccbec5d
+2026-11-07 14:02:35,064 INFO [app] POST /api/v1/chat/stream 200 8ms id=79158946a541
+2026-11-07 14:02:35,490 INFO [httpx] HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-11-07 14:02:36,118 INFO [httpx] HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-07 14:02:36,281 INFO [app] GET /api/v1/conversations 200 2ms id=d8a43154ae23
+2026-11-07 14:02:57,768 INFO [app] GET /api/v1/kbs 200 7ms id=2548955d7def
+2026-11-07 14:03:02,498 INFO [app] GET /api/v1/kbs 200 8ms id=766b0acc8137
+2026-11-07 14:03:02,704 INFO [app] GET /api/v1/conversations 200 4ms id=fc243632b463
+2026-11-07 14:03:05,535 INFO [app] GET /api/v1/conversations 200 4ms id=f9a14b951554
+2026-11-07 14:03:24,215 INFO [app] GET /api/v1/conversations 200 3ms id=d33d6a8fe341
+2026-11-07 14:03:41,121 INFO [app] POST /api/v1/chat/stream 200 12ms id=39798d72d697
+2026-11-07 14:03:41,573 INFO [httpx] HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/embeddings "HTTP/1.1 200 OK"
+2026-11-07 14:03:42,364 INFO [httpx] HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-07 14:03:42,621 INFO [app] GET /api/v1/conversations 200 2ms id=a9a423a5fc88
